@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vacunas</title>
+    <script src="https://kit.fontawesome.com/98eaa51ab0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="generales.css">
+    <link rel="stylesheet" href="contenedores.css">
+    <link rel="stylesheet" href="interaccion.css">
+    <style>
+        
+    </style>
+
+
+
+
+</head>
+<body>
+
+    <!--/*AQUI SE ENCUENTRA LA CINTA DE OPCIONES
+    DE MI HEADER*/-->
+    <section class="header">
+        <div class="contenedor1" style="justify-content: flex-start;color: #2949c7;font-weight: 900;">
+            VACCINATION
+        </div>
+        <div class="contenedor1" style="justify-content: flex-end;">
+            <a class="he" href="#"><p class="pvertical">Database</p></a>
+            <a class="he" href="#"><p class="pvertical">Education</p></a>
+            <a class="he" href="#"><p class="pvertical">News</p></a>
+            <a class="he" href="#"><p class="pvertical">Regulation</p></a>
+            <a class="he" href="#" style="background-color: #3858d6;color: white;"><p class="pvertical">Hoax Buster</p></a>
+        </div>
+</section>
+
+    <hr class="divisor">
+    
+    <!--/*AUI SE ENCUENTRA LA PRIMERA ENFERMERA
+    QUE ESTA DEL LADO DERECHO*/-->
+    
+    <section class="contenedor">
+        <div class="contenedor1" style="flex-direction: column;">
+            <h1> fight virus with vaccines</h1>
+            <br>
+            <p>Let's stop this pandemic by killing this virus whit a vaccine, don't let yoursefl and your family get 
+                infected
+            </p> 
+            <div class="contenedor">
+                <div class="contenedor1" >
+                    <p><i class="fa-solid fa-shield-blank" style="color: #ffd012;"></i><br>  Best Protection</p>
+                </div>
+                <div class="contenedor1">
+                    <p><i class="fa-solid fa-star" style="color: #ffd012;"></i> <br> Selected vaccines</p>
+                </div>
+            </div>
+        </div>
+        <div class="contenedor1" >
+            <img src="https://www.bitacoraenfermera.org/wp-content/uploads/2021/03/719-580x580.jpg" width="300px" height="300px" alt="">
+        </div>
+        
+    </section>
+
+    <!--/*Aqui esta la agenda de citas*/-->
+    <section class="contenedora">
+        <h2>Agenda tu cita</h2>
+        <div class="contenedor">
+            <div class="contenedor2" style="flex-direction: column;">
+                <P><i class="fa-solid fa-location-dot" style="background-color: azure;"></i> Location</P>
+                <select class="select" id="lugar" name="selectordelugar">
+                </select>
+            </div>
+            <div class="contenedor2" style="flex-direction: column;">
+                <P><i class="fa-solid fa-calendar-days" style="background-color: azure;"></i> Date</P>
+                <input type="date" name="fecha" id="vaccinedate">
+            </div>
+            <div class="contenedor2" style="flex-direction: column;">
+                <P><i class="fa-solid fa-pen-to-square" style="background-color: azure;"></i> Vaccine type</P>
+                <select id="vacctype" name="selectordevacuna">
+                    <option value="1">Astra Zeneca</option>
+                    <option value="2">Sinovac</option>
+                    <option value="3">Pfizer</option>
+                    <option value="4">Moderna</option>
+                </select>
+            </div>
+            <a class="he" href="#" style="margin-top: 30px;background-color: #3858d6;color: white;"><p class="pvertical">Sumbit</p> </a> 
+        </div> 
+        <div class="contenedor">
+            <img class="ajustada" src="astra seneca.jpg" alt="">
+            <img class="ajustada" src="sinovac.jpg" alt="">
+            <img class="ajustada" src="pfizer.png" alt="">
+            <img class="ajustada" src="moderna.png" alt="">
+            
+        </div>
+    </section>
+    
+    <!--Aqui esta la seccion de informacion acerca de 
+    los beneficios de la vacunas-->
+    <section class="contenedora">
+        <h1>why should i vaccine?</h1>
+        <p>in order to avoid any doubts about getting the COVID-19 <br> vaccine, identify
+            the following 4 benefits of COVID-19 vaccination:</p>
+        
+        <div class="contenedor" style="gap: 10px;">
+            <div class="contenedor3"> 
+                <i class="fa-solid fa-viruses" style="color: #3353d1;"></i>
+                <div class="divti"><h3> Minimize the spread of the viruses</h3></div>
+                <p>Vaccine has been proven effective to prevent someone from getting infected with coronavirus</p>
+            </div>
+            <div class="contenedor3"> 
+                <i class="fa-solid fa-shield-virus" style="color: #3353d1;"></i>
+                <div class="divti"><h3> Forming Antiebodies</h3></div>
+                <p>COVID-19 vaccine proven to help shape antibody response for inmune system</p>
+            </div>
+            <div class="contenedor3"> 
+                <i class="fa-solid fa-users" style="color: #3353d1;"></i>
+                <div class="divti"><h3> Protecting people nearby</h3></div>
+                <p>The benefits of COVID-19 vaccination are the vaccine that we can also help protect people around us</p>
+            </div>
+            <div class="contenedor3"> 
+                <i class="fa-solid fa-chart-line" style="color: #3353d1;"></i>
+                <div class="divti"><h3> Creating a group inmunity</h3></div>
+                <p>COVID-19 vaccionation is also beneficial for creating group inmunity or herd inmunity</p>
+            </div>
+        </div>
+    </section>
+    
+    <!--Aqui va la seccion de el acordeon de información-->
+    <section class="contenedor">
+        <div class="contenedor1" >
+            <img src="https://www.bitacoraenfermera.org/wp-content/uploads/2021/03/719-580x580.jpg" width="300px" height="300px" alt="">
+        </div>
+        <div class="contenedor1" style="flex-direction: column;">
+            <h2>Preparations before vaccine</h2>            
+            <p style="text-align: left;">The success of the vaccines is strongly influenced by the strenght of the body's inmune
+            system. Therefore are several things that can be tried to make de COVID-19 vaccine work:</p>
+            
+            <button class="accordion"><i class="fa-solid fa-shield" style="color: #2c4cca;"></i>Avoid alcoholic beverages</button>
+            <div class="panel">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod 
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod 
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod 
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod 
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+
+            <button class="accordion"><i class="fa-solid fa-square-xmark" style="color: #2c4cca;"></i>Avoid Stress</button>
+            <div class="panel">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+
+            <button class="accordion"><i class="fa-solid fa-carrot" style="color: #2c4cca;"></i>Eat healthy Food</button>
+            <div class="panel">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+
+            <button class="accordion"><i class="fa-solid fa-bed" style="color: #2c4cca;"></i>Get enough sleep</button>
+            <div class="panel">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+
+            <button class="accordion"><i class="fa-solid fa-heart" style="color: #2c4cca;"></i>Excersice or physical activity</button>
+            <div class="panel">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+        </div>
+        
+    </section>
+
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+        
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+              panel.style.display = "none";
+            } else {
+              panel.style.display = "block";
+            }
+          });
+        }
+    </script>
+
+
+    <!--Aqui va la seccion de contactos de emergencia-->
+    <section class="contenedor">
+        <div class="contenedor1" style="flex-direction: column;">
+            <h1> Emergency contact</h1>
+            <p style="text-align: left;">Contact one of the contacts below if you or your family feel unwell and have 
+                similar symptoms such as COVID-19, make sure you also take care of yourself before reporting to us
+            </p>
+            <div class="contenedora">
+                <div class="contenedor">
+                    <div class="contenedor3a"> 
+                        <div style="display: flex; flex-direction: row;">
+                            <div class="contic">                        
+                                <i class="fa-solid fa-phone" style="color: #3353d1;font-size: xx-large;"></i>
+                            </div>
+                            <p class="pvertical" style="margin-top: 5px;">Call <br> 44444444444</p> 
+                        </div>
+                        <br>
+                        <a class="he" href="#"><p class="pvertical">Call Now</p> </a>
+                    </div>
+
+                    <div class="contenedor3a"> 
+                        <div style="display: flex; flex-direction: row;">
+                            <div class="contic">                        
+                                <i class="fa-solid fa-comment-dots" style="color: #3353d1;font-size: xx-large;"></i>
+                            </div>
+                            <p class="pvertical" style="margin-top: 5px;">Chat <br> 44444444444</p> 
+                        </div>
+                        <br>
+                        <a class="he" href="#"><p class="pvertical">Chat Now</p> </a>
+                    </div>
+                </div>
+                <div class="contenedor">
+                    <div class="contenedor3a"> 
+                        <div style="display: flex; flex-direction: row;">
+                            <div class="contic">                        
+                                <i class="fa-solid fa-video" style="color: #3353d1;font-size: xx-large;"></i>
+                            </div>
+                            <p class="pvertical" style="margin-top: 5px;">Video Call <br> 44444444444</p> 
+                        </div>
+                        <br>
+                        <a class="he" href="#"><p class="pvertical">Video Call Now</p> </a>
+                    </div>
+                    <div class="contenedor3a"> 
+                        <div style="display: flex; flex-direction: row;">
+                            <div class="contic">                        
+                                <i class="fa-solid fa-envelope" style="color: #3353d1;font-size: xx-large;"></i>
+                            </div>
+                            <p class="pvertical" style="margin-top: 5px;">Message<br> 44444444444</p> 
+                        </div>
+                        <br>
+                        <a class="he" href="#"><p class="pvertical">Message now</p> </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contenedor1" >
+            <img src="https://www.bitacoraenfermera.org/wp-content/uploads/2021/03/719-580x580.jpg" width="300px" height="300px" alt="">
+        </div>
+        
+    </section>
+
+
+    <footer class="contenedora">
+        <div class="contenedor">
+            <div class="contenedora" style="width: 50%;">
+                <h2>vaccination</h2>
+                <p>Our goal is set the world free <br> from the ongoing pandemic</p>
+            </div>
+            <div class="contenedor" style="width: 50%">
+                <div class="contenedor3f" >
+                    <h2>About us</h2>
+                    <a href="#" style="text-decoration: none; color:#6d7b93">About us</a>
+                    <br><a href="#" style="text-decoration: none; color:#6d7b93">Features</a>
+                    <br><a href="#" style="text-decoration: none; color:#6d7b93">News & Blog</a>
+                </div>
+                <div class="contenedor3f" >
+                    <h2>Company</h2>
+                    <a href="#" style="text-decoration: none; color:#6d7b93">How we work</a>
+                    <br><a href="#" style="text-decoration: none; color:#6d7b93">Capital</a>
+                    <br><a href="#" style="text-decoration: none; color:#6d7b93">Security</a>
+                </div>
+                <div class="contenedor3f" >
+                    <h2>Support</h2>
+                    <a href="#" style="text-decoration: none; color:#6d7b93">FAQ's</a>
+                    <br><a href="#" style="text-decoration: none; color:#6d7b93">Support center</a>
+                    <br><a href="#" style="text-decoration: none; color:#6d7b93">Contact us</a>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="contenedor">
+            <div class="contenedor1" style="justify-content: flex-start;">
+                @2021 all rights reserved
+            </div>
+            <div class="contenedor1" style="justify-content: flex-end;">
+                <a href="#" style="text-decoration: none; color:#6d7b93">Terms & agreements</a>
+                <a href="#" style="text-decoration: none; color:#6d7b93">Privacy policy</a> 
+            </div>
+        </div>
+    </footer>
+    
+    
+    
+    
+    
+</body>
+</html>
